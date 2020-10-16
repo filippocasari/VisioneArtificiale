@@ -1,8 +1,7 @@
 import random
 import numpy as np
 from skimage import data
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+
 
 
 
@@ -11,7 +10,7 @@ im = np.swapaxes(np.swapaxes(im, 0, 2), 1, 2)
 nbin = random.randint(32,128)
 
 
-import numpy as np
+
 
 H=im.shape[1]
 W=im.shape[2]
