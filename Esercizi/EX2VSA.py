@@ -3,15 +3,11 @@ import numpy as np
 from skimage import data
 
 
-
-
 im = data.astronaut()
 im = np.swapaxes(np.swapaxes(im, 0, 2), 1, 2)
 nbin = random.randint(32,128)
 
-
-
-
+#inizio esercizio
 H=im.shape[1]
 W=im.shape[2]
 
